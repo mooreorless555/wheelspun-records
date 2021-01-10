@@ -5,7 +5,7 @@ import { RouterModule } from "@angular/router";
 import { AccessTokenGuard } from "./common/access_token_guard";
 import { fadeAnimation } from "./route_animations";
 
-declare var anime: any;              // declare like this
+// declare var anime: any; // declare like this
 
 @Component({
   selector: "app-body",
