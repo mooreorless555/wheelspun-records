@@ -1,10 +1,10 @@
 // declare var anime: any; // declare like this
 
 export const introduce = () => {
-  if (!anime) {
-    console.log("Anime not defined...");
-  }
-  
+  // if (!anime) {
+  //   console.log("Anime not defined...");
+  // }
+
   // Wrap every letter in a span
   const textWrapper1 = document.querySelector(".an-1");
   textWrapper1.innerHTML = textWrapper1.textContent.replace(
