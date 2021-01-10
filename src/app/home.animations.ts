@@ -1,4 +1,4 @@
-import anime from "animejs/lib/anime.es.js";
+import anime from "animejs";
 
 export const introduce = () => {
   // Wrap every letter in a span
